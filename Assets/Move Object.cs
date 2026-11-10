@@ -8,7 +8,7 @@ public class MoveObject : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(transform.forward * speed * Time.deltaTime, Space.Self);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime, Space.Self);
     }
 
 }

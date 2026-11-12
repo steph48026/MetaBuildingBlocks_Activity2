@@ -1,22 +1,32 @@
 # MetaBuildingBlocks_Activity2
 
-This is an Augmented Reality app where you can scan your enviroment to reveal a secret Supermarket (late stage capitalism indicator) and interact with it!
+This is a fun Virtual Reality app where you are a bug terminator, and your job is to fight against as many flies as you want. But each fly’s life you take will have a weight on you, as they will appear as a ghost fly in the sky. Be careful with your actions!
 
 Made by newbie Unity developers based on Unity's AR Mobile template.
 
 ## Installation
 
-This app is compatible with android devices. 
+This app is compatible with android and Meta Quest 3 devices. 
   
-  1 - Install the AR_Supermarket.apk file on your phone.
+  1 - Click on the latest release and download it on your PC.
   
-  2 - Click the apk on your mobile to install it.
+  2 - Connect your Meta Quest 3 via USB-C cable to your PC and open the Meta Quest Developer Hub app.
   
-  3 - Enjoy!
+  3 - When the Quest is connected to the PC, go to the Meta Quest Developer Hub app and in the _Device_ section, select _Add Build_ and click on the _.apk_ you just installed.
+
+  4 - Now go to the HMD and go to _Link_. Inside this space you will find the installed app (or you can launch it via de PC app).
+
+  5 - Enjoy!
 
 ## Usage
 
-The player first will scan their environment, so that the app can properly track area and place the objects correctly. Once that’s done, the player can select in the menu which object to add to the scene and how many. It can also approach some posters, which the camera will scan and make an object appear from the poster. While the player is doing these actions, they will be surrounded by a rain of coins.
+Before opening the app, the Headset should have an environment boundary created, so when the app is opened it can properly track and recognize the area. Once that’s done, the user can start playing by doing the following actions: 
+
+By pressing the right controller’s trigger, a fly will be shot in the diraction that the controller is aiming. 
+
+By holding the right controller’s grip button, a fly will spawn at the controllers location, and if the button is released, the fly will fall down.
+
+You can grab the tennis racket with both of the grip buttons.
 
 ## Contributing
 
@@ -28,7 +38,7 @@ The player first will scan their environment, so that the app can properly track
 
 ## History
 
-It all started with Unity’s AR Template, which we then modified to what we had in mind for this project. We added plants that the player can buy from this AR supermarket by selecting it from the menu and adding it to the scene. To add a little more character to our supermarket, we also added some promotional posters of some of our products, like our special burgers, that the player can scan to acquire said products. Finally, in case the player ran out of money wanting to buy all of our amazing products, the AR supermarket holds a special promotion, where it rains infinite money. 
+It all started with Unity’s 3D Template, which we then modified to what we had in mind for this project. We used as a base starter a Unity project made in class for the essential actions for our game. Then we brainstormed different ideas and we reached our final concept. Once the idea was clear, we started looking for references of the two objects—the fly and the racket—and then later we modeled them in Maya. We implemented those objects into the project and made some last touches. We then added the Passthrough building block and the Bouncing Ball sample. We then adjusted them to fit into the idea we had in mind for this application.
 
 ## Credits
 
